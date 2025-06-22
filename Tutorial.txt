@@ -1,0 +1,20 @@
+Terima kasih telah memilih menggunakan bot Raid dari saya
+
+pertama yang perlu dipastikan anda telah menginstall nodejs dan npm kedalam komputer anda, setelah itu anda cukup mendowload file ini kemudian mengekstrak
+setelah mengekstraknya, anda tinggal memasukan beberapa hal sebelum memulai menjalan bot ini
+
+jika anda ingin menggunakan program autochat + auto delete
+1. tambahkan token discord anda di file data/token.txt
+2. tambahkan id channel yang ingin anda raid kan, tambahkan ke file channel.txt
+3. tambahkan kata-kata yang ingin anda kirim ke channel, tambahkan kata didalam folder data/kata.txt
+
+jika anda ingin menggunakan program AutoChat Only
+1. tambahkan token discord anda di file data/token.txt
+2. tambahkan id channel yang ingin anda raid kan, tambahkan ke file gmchcanel.txt
+3. tambahkan kata-kata yang ingin anda kirim ke channel, tambahkan kata didalam folder data/gm.txt
+
+perlu diingat fitur dari kedua program tersebut ada perbedaan dalam pengiriman pesan, untuk program pertama kata yang dikirimkan secara acak berdasarkan data yang ada pada file data/kata.txt sedangkan untuk program yang kedua data yang dikirimkan, akan dikirimkan secara berurutan
+
+setelah persiapan nya selesai
+download semua module dan depensi nya dengan menggunakan npm install
+kemudian anda tinggal menjalankan bot nya dengan menggunakan perintah node index
