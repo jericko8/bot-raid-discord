@@ -1,30 +1,35 @@
 # 🎯 Bot Raid Discord
 
-Bot ini menyediakan 2 mode:
-1. **AutoChat + AutoDelete** – mengirim pesan acak dan langsung dihapus.
-2. **AutoChat Only** – hanya mengirim pesan secara berurutan, tanpa penghapusan.
+Terima kasih telah memilih menggunakan bot Raid dari saya.
+
+## 🔧 Persiapan Awal
+Pastikan kamu telah menginstall **Node.js** dan **npm** di komputer.
+
+Lalu:
+1. Download dan ekstrak file bot.
+2. Buka terminal ke folder hasil ekstrak.
 
 ---
 
-## 📥 Persiapan
-
-1. Download dan ekstrak paket bot.
-2. Arahkan terminal ke folder ekstrak.
-
----
-
-## ⚙️ Konfigurasi
+## 🛠️ Mode Pemakaian
 
 ### Mode 1: AutoChat + AutoDelete
-- Tambahkan token Discord ke dalam file `data/token.txt`.
-- Tambahkan ID channel target ke dalam `channel.txt`.
-- Masukkan daftar kata acak di `data/kata.txt`.
+- Tambahkan token Discord di `data/token.txt`
+- Tambahkan ID channel target di `channel.txt`
+- Tambahkan daftar kata acak di `data/kata.txt`
 
 ### Mode 2: AutoChat Only
-- Tambahkan token Discord di `data/token.txt`.
-- Tambahkan ID channel ke `gmchanel.txt`.
-- Masukkan daftar kata berurutan di `data/gm.txt`.
+- Tambahkan token Discord di `data/token.txt`
+- Tambahkan ID channel target di `gmchcanel.txt`
+- Tambahkan daftar kata berurutan di `data/gm.txt`
+
+> Mode 1 mengirim pesan acak dari `data/kata.txt`,  
+> Mode 2 mengirim pesan berurutan dari `data/gm.txt`
 
 ---
 
-perlu diingat fitur dari kedua program tersebut ada perbedaan dalam pengiriman pesan, untuk program pertama kata yang dikirimkan secara acak berdasarkan data yang ada pada file data/kata.txt sedangkan untuk program yang kedua data yang dikirimkan, akan dikirimkan secara berurutan
+## 🚀 Instalasi & Menjalankan
+
+```bash
+npm install
+node index
