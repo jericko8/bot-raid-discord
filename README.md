@@ -47,7 +47,6 @@ Buka Termux, lalu jalankan perintah berikut:
 
 ```bash
 pkg update && pkg upgrade
-sudo apt install screen
 pkg install git nodejs
 ```
 
@@ -119,7 +118,13 @@ npm install
 
 ## 🚀 5. Jalankan Bot
 
-Untuk menjalankan bot: kita perlu membuat screen terlebih dahulu dengan cara 
+jika anda menggunakan vps kita perlu membuat screen terlebih dahulu, tetapi jika anda menggunakan termux, skip langkah membuat session ini, dan langsung jalankan programnya
+
+isntall session
+```bash
+sudo apt install screen
+```
+kemudian buat session baru
 ```bash
 screen -S nama_session
 ```
