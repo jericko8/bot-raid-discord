@@ -130,6 +130,7 @@ lalu masuk ke session dengan perintah
 screen -r nama_session
 ```
 > atau bisa juga langsung dengan id session seperti contohnya screen -r 12345
+
 kemudian jalankan programnya
 ```bash
 node index.js
@@ -145,8 +146,8 @@ setelah program dijalankan anda bisa menutup session nya tanpa harus mematikan d
 Ctrl + a, lalu d
 ```
 daftar command session
-> screen -ls untuk melihat list session
-> screen -S nama_session -X kill untuk menhapus session
+> untuk melihat list session `screen -ls`, 
+> untuk menhapus session `screen -S nama_session -X kill ` 
 
 ---
 
