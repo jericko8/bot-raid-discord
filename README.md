@@ -97,7 +97,12 @@ npm install
    ```bash
    nano ./data/gm.txt
    ```
-
+   
+   jika ingin keluar dari nano gunakan
+   ```bash
+   CTRL + O enter
+   CTRL X
+   ```
 ---
 
 ## 🚀 5. Jalankan Bot
@@ -119,6 +124,5 @@ npm start
 Selamat menggunakan! Jika ada kendala, silakan cek dokumentasi tambahan atau hubungi pembuat skrip ini.
 
 
-## 🚀 Instalasi & Menjalankan
 
 
