@@ -113,7 +113,7 @@ const removeMessage = (token, channelId, messageId) => {
                     process.exit(1);}
                 const second = delayBeforeDelete * 1000
                 console.clear();
-                // const channelId = readlineSync.question('[!] Channel ID/file channe.txt : ');
+                
                 // DELAY CHAT
                 const delaychat = readlineSync.question(`${YELLOW}[!] Masukan Delay Pengulangan Chat(cth: "20s" untuk detik, "1.5m" untuk menit)${RESET}: `).trim().toLowerCase();
                 const delayChatMs = (() => {
