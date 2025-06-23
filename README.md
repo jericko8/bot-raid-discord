@@ -47,6 +47,8 @@ Buka Termux, lalu jalankan perintah berikut:
 
 ```bash
 pkg update && pkg upgrade
+```
+```bash
 pkg install git nodejs
 ```
 
@@ -58,6 +60,8 @@ Clone repositori dan masuk ke dalam folder project:
 
 ```bash
 git clone https://github.com/jericko8/bot-raid-discord.git
+```
+```bash
 cd bot-raid-discord
 ```
 
