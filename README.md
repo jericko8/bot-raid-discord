@@ -27,9 +27,98 @@ Lalu:
 > Mode 2 mengirim pesan berurutan dari `data/gm.txt`
 
 ---
+untuk menjalankan program ini di vps atau termux, ikuti langkah langkah berikut ini
+---
 
-## 🚀 Instalasi & Menjalankan
+## 🔧 1. Instalasi dan Persiapan
+
+Buka Termux, lalu jalankan perintah berikut:
+
+```bash
+pkg update && pkg upgrade
+pkg install git nodejs
+```
+
+---
+
+## 📥 2. Clone Repository
+
+Clone repositori dan masuk ke dalam folder project:
+
+```bash
+git clone https://github.com/jericko8/bot-raid-discord.git
+cd bot-raid-discord
+```
+
+---
+
+## 📦 3. Install Dependencies
+
+Install dependensi Node.js:
 
 ```bash
 npm install
-node index
+```
+
+---
+
+## 🛠️ 4. Konfigurasi Token & Channel ID
+
+### Untuk Mode AutoChat & Auto Deleted:
+
+1. Masukkan ID channel ke dalam file `channel.txt`:
+
+   ```bash
+   nano channel.txt
+   ```
+
+2. Masukkan token Discord Anda ke dalam file `token.txt` di folder `data`:
+
+   ```bash
+   nano ./data/token.txt
+   ```
+
+3. Masukkan kata-kata yang akan dikirimkan ke Discord ke dalam file `kata.txt` di folder `data`:
+
+   ```bash
+   nano ./data/kata.txt
+   ```
+
+### Untuk Mode AutoChat Only:
+
+1. Masukkan ID channel ke dalam file `gmchanel.txt`:
+
+   ```bash
+   nano ./gmchanel.txt
+   ```
+
+2. Masukkan data pesan ke dalam file `gm.txt` di folder `data`:
+
+   ```bash
+   nano ./data/gm.txt
+   ```
+
+---
+
+## 🚀 5. Jalankan Bot
+
+Untuk menjalankan bot:
+
+```bash
+node index.js
+```
+
+atau:
+
+```bash
+npm start
+```
+
+---
+
+Selamat menggunakan! Jika ada kendala, silakan cek dokumentasi tambahan atau hubungi pembuat skrip ini.
+
+
+## 🚀 Instalasi & Menjalankan
+
+
