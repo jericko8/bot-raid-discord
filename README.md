@@ -26,9 +26,20 @@ Lalu:
 > Mode 1 mengirim pesan acak dari `data/kata.txt`,  
 > Mode 2 mengirim pesan berurutan dari `data/gm.txt`
 
----
-untuk menjalankan program ini di vps atau termux, ikuti langkah langkah berikut ini
----
+
+# 🖥️ untuk menjalankan program ini di local komputer andaa
+anda hanya perlu menginstall module nya 
+```bash
+npm install
+```
+dan jalankan programnya
+```bash
+node index
+```
+
+
+# >_ untuk menjalankan program ini di vps atau termux, ikuti langkah langkah berikut ini
+
 
 ## 🔧 1. Instalasi dan Persiapan
 
