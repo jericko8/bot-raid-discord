@@ -162,6 +162,10 @@ daftar command session
 
 Selamat menggunakan! Jika ada kendala, silakan cek dokumentasi tambahan atau hubungi pembuat skrip ini.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
