@@ -123,6 +123,11 @@ const removeMessage = (token, channelId, messageId) => {
                         return process.exit();
                     }
                     const num = +m[1];
+
+                     if (num === 0) {
+                        return 0;
+                    }
+                    
                     const unit = m[2];
                     return num * (unit && unit.startsWith('m') ? 60000 : 1000);
                 })();
@@ -164,6 +169,11 @@ const removeMessage = (token, channelId, messageId) => {
                     return process.exit();
                 }
                 const num = +m[1];
+
+                if (num === 0) {
+                        return 0;
+                    }
+                
                 const unit = m[2];
                 return num * (unit && unit.startsWith('m') ? 60000 : 1000);
             })();
